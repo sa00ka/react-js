@@ -1,0 +1,43 @@
+.fullname{
+    color: rgb(0, 255, 128);
+    margin: 200px 80px 80px 80px;
+    font-family: cursive;
+    font-size: x-large;
+    transform: skew(30deg);
+  
+}
+.adress{
+    color: rgb(253, 237, 6) !important;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-style: oblique;
+    transform: skew(10deg);
+    text-shadow: 2px 2px 10px red;
+}
+.photo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .photo1, .photo2 {
+    display: block;
+      animation: 15s ease-in-out 0s infinite running PhotoRotate;
+      
+    
+  
+    }
+}
+  
+@keyframes PhotoRotate {
+  100%{transform: rotateY(360deg);}
+  
+  }
+
+span{
+  color: greenyellow;
+  }
+h1 {
+  text-shadow: 2px 2px 8px #ffd000;
+}
